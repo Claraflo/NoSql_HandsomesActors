@@ -29,7 +29,3 @@ for nameFile in listNameFile:
 
 
 
-#cursor = col.find({})
-#for document in cursor:
-#	print(document)
-

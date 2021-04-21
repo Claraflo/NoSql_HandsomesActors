@@ -15,14 +15,14 @@ def cleanDate(date):
 
 # Ouverture du fichier contenant les noms des acteurs
 flag = True
-
 try:
 	namesActors = open('listeNomsActeurs.txt', 'r')
-
 except(IOError):
 	print('fichier non ouvert')
 	flag = False
 
+
+#Si le fichier s'est bien ouvert.
 if (flag == True):
 
 	namesActors.seek(0,0)
